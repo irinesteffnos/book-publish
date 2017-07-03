@@ -29,10 +29,23 @@ button {
 }
 </style>
 </head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Sign in to Book Outlet</title>
+
+<body>
+<div align="center">
+<h1>PUBHUB 200</h1>
+
+
+<div class="container">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Sign in to Book Outlet</title>
+
+
 
 
 <body>
-<%@ include file="../../layout/header.jsp"%>
+
 <h1>Login</h1>
 <form action="../User/addlogin" method="POST">
 <div class="container">

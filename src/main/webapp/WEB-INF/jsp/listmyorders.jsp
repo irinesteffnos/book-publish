@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>LIST MY ORDES</title>
+<title>LIST MY ORDERS</title>
 </head>
 <body>
 
@@ -37,8 +37,8 @@
 											<td>${order.id}</td>
 											<td>
 												<ul>
-													<c:forEach items="${order.orderItems}" var="selectbook">
-														<li>${item.book.bookname}(Quantity - ${item.quantity} )</li>
+													<c:forEach items="${order.orderItems}" var="item">
+														<li>${selectbook.bookname}(Quantity - ${item.quantity} )</li>
 													</c:forEach>
 												</ul>
 											</td>
